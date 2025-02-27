@@ -1,81 +1,69 @@
-# Nimbus Weather Dashboard
+🎬 Interactive Video Captioning
+🚀 Live Demo
+Live Application Link (Replace with actual deployed URL)
 
-# Live Demo
+📌 Overview
+Interactive Video Captioning is a web-based tool that allows users to upload and annotate videos with captions. Users can add captions at specific timestamps and manage them in an interactive way.
 
-https://nimbus-phi-lake.vercel.app/
+✨ Features
+✅ Upload & Play Video – Supports hosted video URLs for seamless playback.
+✅ Add Captions – Insert captions at specific timestamps while watching the video.
+✅ Manage Captions – View, seek, and delete captions easily.
+✅ Responsive Design – Ensures an optimized experience across devices.
+✅ Smooth Animations – Uses framer-motion for a modern UI experience.
 
-# Overview
+🛠️ Tech Stack
+🔹 React + Vite – Fast and efficient front-end development.
+🔹 TypeScript – Ensures type safety.
+🔹 Tailwind CSS – Modern styling for a responsive UI.
+🔹 Framer Motion – Adds smooth animations.
 
-This web application provides real-time weather information for the user's current location, along with an 8-day forecast. Users can search for their favorite cities worldwide, add them to their favorites, and manage their recent search history. The dashboard offers a seamless and interactive experience to track weather updates efficiently.
-
-# Features
-
-Current Location Weather: Automatically detects and displays weather details for the user's current location.
-
-8-Day Forecast: Provides a detailed weather forecast for the next eight days.
-
-City Search: Allows users to search for any city worldwide.
-
-Favorite Cities: Users can save their favorite cities for quick access.
-
-Recent Search History: Keeps track of searched cities and allows users to remove them when needed.
-
-Interactive Dashboard: Displays weather data using visually appealing charts.
-
-Optimized API Handling: Uses OOP-based API connections and custom hooks for efficient data fetching.
-
-# Tech Stack
-
-React + Vite – Frontend development.
-
-TypeScript – Ensuring type safety.
-
-TanStack Query – Managing API requests and caching data efficiently.
-
-ShadCN – Modern UI components.
-
-Recharts – Visualizing weather data.
-
-Tailwind CSS – Styling for a sleek and responsive UI.
-
-Custom Hooks & OOP-based API Handling – Ensuring modular and scalable code.
-
-# Project Structure
-
-The project follows a modular and scalable architecture, incorporating object-oriented programming (OOP) principles and react hooks to manage API interactions efficiently.
-
-# Getting Started
-
-Prerequisites
-
-Node.js and npm/yarn installed.
-
-Installation
-
+📂 Project Structure
+bash
+Copy
+Edit
+/src
+ ├── /components
+ │   ├── VideoPlayer.tsx      # Handles video playback with captions
+ │   ├── CaptionInput.tsx     # Allows users to add captions
+ │   ├── CaptionList.tsx      # Displays and manages captions
+ │   ├── PlaceholderIllustration.tsx # Shows a placeholder before video is added
+ ├── App.tsx                 # Main component managing video and captions
+ ├── main.tsx                # React entry point
+ ├── index.css                # Global styles
+🔧 Getting Started
+⚙️ Prerequisites
+Node.js and npm/yarn installed
+📥 Installation
 Clone the repository:
 
-git clone <https://github.com/shekhar-2410/Nimbus.git>
-
+sh
+Copy
+Edit
+git clone <repository-url>
 Navigate to the project directory:
 
-cd weather-dashboard
-
+sh
+Copy
+Edit
+cd video-captioning
 Install dependencies:
 
+sh
+Copy
+Edit
 npm install  # or yarn install
+▶️ Running the Application
+Start the development server:
 
-Running the Application
-
-To start the development server, run:
-
+sh
+Copy
+Edit
 npm run dev  # or yarn dev
+🚀 Deployment
+The application can be deployed easily on Vercel, Netlify, or any other static hosting service.
 
-# Deployment
+🤝 Contributions
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
-The application is deployed on Vercel for seamless hosting and performance.
-
-# Contributions
-
-Contributions are welcome! If you'd like to improve this project, feel free to fork the repository and submit a pull request.
-
-Enjoy using the Weather Dashboard! ☁️🌡️
+Enjoy using Interactive Video Captioning! 🎥📜✨

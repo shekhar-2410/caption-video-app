@@ -3,7 +3,9 @@ import VideoPlayer from "./components/VideoPlayer";
 import CaptionInput from "./components/CaptionInput";
 import CaptionsList from "./components/CaptionList";
 import PlaceholderIllustration from "./components/PlaceholdeIllustration";
+import FloatingParticles from "./components/FloatingPaticles";
 import { motion } from "framer-motion";
+import "./App.css";
 
 export default function App() {
   const [videoUrl, setVideoUrl] = useState("");
@@ -23,7 +25,8 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-purple-500 p-6 text-white">
+    <div className="min-h-screen flex flex-col items-center justify-center animated-bg p-6 text-white">
+      <FloatingParticles />
       {/* Animated Heading */}
       <motion.h1
         className="text-4xl md:text-5xl font-bold mb-4 text-center"
